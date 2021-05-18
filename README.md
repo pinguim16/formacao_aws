@@ -1,4 +1,4 @@
-# Formação AWS
+# Formação AWS (Em Edição - Rascunho)
 
 ## Free Tier
 
@@ -6,6 +6,23 @@ Free Tier, normalmente é tempo que você tem para uso gratuito para utilizaçã
 Para alguns serviços temos até 12 meses sem cobranças, mas depende do serviço e como será o uso desse
 serviço.
 Exemplo: t2.micro tem um limite de 750hrs por mês.
+
+Serviço dedicado: serviço onde precisamos inicia ele e estaremos realizando o pagamento
+por hora do mesmo (explicação de forma mais simples). 
+* Vantagem: o serviço estaria dedicado para minha aplicação, por exemplo, uma instância EC2, 
+ao iniciar uma instancia EC2 e hospedar minha aplicação na mesma, essa instância seria totalmente
+dedicada a minha aplicação.
+* Desvantagem: seria totalmente responsável pela instância, caso a instância fica indisponível em
+alguma regiao, a mesma poderia ficar offline.
+  
+Serviço compartilhado: o serviço que está sempre disponível e não precisa se preocupar com seu
+gerenciamento. Um exemplo simples que podemos levantar é o S3, não pagariamos por hora de uso,
+pagariamos somente por trafego gerado (download e upload) e armazenamento.
+
+Escabilidade :
+* Escale out: escalar pra fora, adicionar novos nós para aumentar e suprir a demanda.
+* Escale Up : aumentar a quantidade (poder computacional) de hardware para ajudar no processamento.
+* Escale down : diminuir a quantidade (pode computacional) de hardware para ajudar no processamento.
 
 ## Ec2
 Explicando de modo simples, consiste em uma máquina virtual hospedada no AWS.
