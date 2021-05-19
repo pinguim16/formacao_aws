@@ -1,11 +1,37 @@
 # Formação AWS (Em Edição - Rascunho)
 
+## Criação de Conta
+
+Para criarmos a conta precisamos acessar : https://aws.amazon.com/
+<img src="img/criacao_conta.png" alt="Coesão" width="400" />
+
+
 ## Free Tier
 
 Free Tier, normalmente é tempo que você tem para uso gratuito para utilização da AWS. 
 Para alguns serviços temos até 12 meses sem cobranças, mas depende do serviço e como será o uso desse
 serviço.
 Exemplo: t2.micro tem um limite de 750hrs por mês.
+
+## Billing 
+
+Alarmes de notificação para ser notificado em caso de extrapolar valores de pagamento.
+
+## Regiöes x Zona de Disponibilidade (AZ)
+
+Regiöes são grandes áreas que a aws tem espalhados pelo globo terreste e nessa área se concentra
+vários serviços disponíveis para uso, até alguns mais especificos.
+Zona de disponilidade imagine como servidores que estão ligados oferecendo determinados
+serviços independentes para aquela região, delimitados por uma certa distância. Eles
+podem estar a alguns kilometros uns dos outros, isso para garantir o minimo de segurança
+para o caso de algum fenomeno natural.
+
+SLA Aws: 
+
+Link para averiguar as zonas e regiões:
+https://aws.amazon.com/pt/about-aws/global-infrastructure/regions_az/ 
+
+## Serviço Dedicado x Compartilhado
 
 Serviço dedicado: serviço onde precisamos inicia ele e estaremos realizando o pagamento
 por hora do mesmo (explicação de forma mais simples). 
@@ -19,7 +45,7 @@ Serviço compartilhado: o serviço que está sempre disponível e não precisa s
 gerenciamento. Um exemplo simples que podemos levantar é o S3, não pagariamos por hora de uso,
 pagariamos somente por trafego gerado (download e upload) e armazenamento.
 
-Escabilidade :
+## Escabilidade :
 * Escale out: escalar pra fora, adicionar novos nós para aumentar e suprir a demanda.
 * Escale Up : aumentar a quantidade (poder computacional) de hardware para ajudar no processamento.
 * Escale down : diminuir a quantidade (pode computacional) de hardware para ajudar no processamento.
