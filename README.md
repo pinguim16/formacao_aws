@@ -3,8 +3,30 @@
 ## Criação de Conta
 
 Para criarmos a conta precisamos acessar : https://aws.amazon.com/
-<img src="img/criacao_conta.png" alt="Coesão" width="400" />
 
+<img src="img/criacao_conta.png" alt="Coesão" width="500" />
+
+Ao entrar no link deve-se clicar no botão "Create an AWS Account", se será direcionado
+para a página a seguir.
+
+<img src="img/criacao_conta_2.png" alt="Coesão" width="500" />
+
+Nessa página, será necessário preencher os dados para criação de sua conta como :
+email, senha e um nome único para criação de sua conta (AWS Account Name).
+
+<img src="img/criacao_conta_3.png" alt="Coesão" width="500" />
+
+No próximo passo, se preenche os dados básicos de sua localização, usados normalmente
+para emissão de nota fiscal, quando se tem uma fatura para pagamento.
+No próximo passo teremos que preencher os dados do cartão de crédito e não
+é possível a criação de uma conta sem um cartão de crédito **INTERNACIONAL**, pois 
+a cobrança é realizada em dolar.
+Após os dados preenchidos seremos direcionados para tela inicial do console.
+<img src="img/tela_inicial.png" alt="Coesão" width="400" />
+
+Para verificar em qual região está logada basta acessar o menu no top:
+
+<img src="img/regioes.png" alt="Coesão" width="400" />
 
 ## Free Tier
 
@@ -13,9 +35,18 @@ Para alguns serviços temos até 12 meses sem cobranças, mas depende do serviç
 serviço.
 Exemplo: t2.micro tem um limite de 750hrs por mês.
 
-## Billing 
+## Billing e Configuração
 
-Alarmes de notificação para ser notificado em caso de extrapolar valores de pagamento.
+Alarmes para ser notificado em caso de extrapolar valores de pagamento e para evitar
+sustos no final do mês. Além disso conseguimos informaçöes da fatura e até mesmo
+cada serviço que está gerando cobranças. Para acessar o billing :
+<img src="img/billing.png" alt="Coesão" width="400" />
+
+Abaixo os dados da tela inicial, onde pode-se verificar os dados da sua fatura :
+<img src="img/billing2.png" alt="Coesão" width="400" />
+
+Para configurarmos entraremos no menu "Billing Preferences":
+<img src="/img/coesao.png" alt="Coesão" width="400" />
 
 ## Regiöes x Zona de Disponibilidade (AZ)
 
